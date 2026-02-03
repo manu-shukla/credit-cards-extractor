@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Environment
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Debug/Temp
+*.log
+output.md
+llm_output.md
+
+# OS
+.DS_Store

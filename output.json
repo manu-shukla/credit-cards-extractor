@@ -1,0 +1,116 @@
+[
+  {
+    "id": "hdfc-infinia-metal",
+    "name": "Infinia Metal Edition Credit Card",
+    "bank": "HDFC Bank",
+    "network": "Unknown",
+    "annualFee": 12500,
+    "joiningFee": 12500,
+    "rewardRate": 5.0,
+    "rewards": {
+      "dining": 10.0,
+      "travel": 10.0,
+      "fuel": 0.0,
+      "grocery": 5.0,
+      "shopping": 10.0,
+      "utilities": 5.0,
+      "entertainment": 5.0,
+      "international": 5.0
+    },
+    "color": "#d4af37",
+    "accentColor": "#000000",
+    "gradient": "linear-gradient(180deg, #d4af37 0%, #a0823d 100%)",
+    "benefits": [
+      {
+        "icon": "gift",
+        "title": "Welcome Benefits",
+        "description": "Complimentary Club Marriott membership for first year. Welcome benefit of 12,500 reward points on fee realization and card activation."
+      },
+      {
+        "icon": "plane-takeoff",
+        "title": "Travel Benefits",
+        "description": "Book stay for 3-nights & pay for 2 at participating ITC hotels. Unlimited complimentary global airport lounge access for primary and add-on cardholders."
+      },
+      {
+        "icon": "trophy",
+        "title": "Lifestyle Benefits",
+        "description": "Unlimited Complimentary Global golf lessons & games. 24 x 7 Global Personal Concierge for customized bookings & assistance."
+      },
+      {
+        "icon": "star",
+        "title": "Reward Benefits",
+        "description": "Earn 5 Reward Points on every Rs.150 spent. Earn up to 10x Reward Points on Smartbuy spends."
+      },
+      {
+        "icon": "food",
+        "title": "Dining Benefits",
+        "description": "1+1 buffet at participating ITC hotels. Up to 25% discount on Dining & stay across Asia-Pacific with Complimentary Club Marriott Membership."
+      },
+      {
+        "icon": "plane-landing",
+        "title": "Unlimited Domestic & International Lounge Access",
+        "description": "Unlimited complimentary Domestic airport lounge access in India and unlimited complimentary International airport lounge access outside India via Priority Pass."
+      },
+      {
+        "icon": "golf",
+        "title": "Golf Benefits",
+        "description": "Unlimited Complimentary Golf lessons & games at leading courses across India and select courses across the world. 100% green fee waiver at select golf courses worldwide."
+      },
+      {
+        "icon": "headset",
+        "title": "24x7 Global Personal Concierge",
+        "description": "Customized bookings & assistance for travel, dining, events, and more."
+      },
+      {
+        "icon": "shield-check",
+        "title": "Insurance Benefits",
+        "description": "Accidental Air Death cover worth Rs. 3 Crore. Emergency overseas hospitalization up to Rs. 50 lakhs. Credit Shield Cover for up to Rs. 9 lakhs."
+      },
+      {
+        "icon": "percent",
+        "title": "Lowest Foreign Currency Markup",
+        "description": "Lowest markup fee of 2% on all foreign currency transactions."
+      },
+      {
+        "icon": "alert-octagon",
+        "title": "Zero Lost Card Liability",
+        "description": "Zero liability on fraudulent transactions in case of card loss, upon reporting."
+      },
+      {
+        "icon": "percent",
+        "title": "Fuel Surcharge Waiver",
+        "description": "1% fuel surcharge waiver at all fuel stations across India on transactions between Rs.400 and Rs.1,00,000."
+      }
+    ],
+    "milestones": [
+      {
+        "spend": 1000000,
+        "benefit": "Renewal fee waiver",
+        "value": 12500
+      }
+    ],
+    "bestMerchants": [
+      {
+        "name": "Smartbuy",
+        "logo": "",
+        "multiplier": "10x"
+      },
+      {
+        "name": "ITC Hotels",
+        "logo": "",
+        "multiplier": "1+1 buffet & Book 3 nights pay for 2"
+      }
+    ],
+    "rewardPointValue": 1.0,
+    "rewardPointsName": "Reward Points",
+    "mostlyUsedFor": [
+      "Travel",
+      "Shopping",
+      "Dining",
+      "Lifestyle"
+    ],
+    "cardNumber": null,
+    "expiryDate": null,
+    "cardholderName": null
+  }
+]
