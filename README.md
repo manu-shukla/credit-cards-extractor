@@ -58,10 +58,9 @@ OPENAI_API_KEY=your_openai_key  # optional
 
 ## Output
 
-Results are exported to `frontend_export/`:
-- `cards.ts` - TypeScript data with types
+Results are exported to root directory
 - `cards.json` - Raw JSON data
-- `types.ts` - TypeScript interfaces
+
 
 ## Project Structure
 
