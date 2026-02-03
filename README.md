@@ -11,7 +11,16 @@ Extract structured credit card data from Indian bank websites using AI.
 
 ## Quick Start
 
+### You can run using 
+
+```
+./script.sh 
+```
+
+or
+
 ```bash
+
 # Install dependencies
 pip install -r requirements.txt
 playwright install chromium
