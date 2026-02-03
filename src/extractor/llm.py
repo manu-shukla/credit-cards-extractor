@@ -48,9 +48,8 @@ Return ONLY valid JSON, no markdown."""
 
 def _get_gemini_client():
     """Get configured Gemini client"""
-    import google.generativeai as genai
-    genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-    return genai.GenerativeModel('gemini-2.5-flash-lite', system_instruction=EXTRACTION_PROMPT)
+    from google import genai
+    return genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
 
 def _get_openai_client():
@@ -61,10 +60,13 @@ def _get_openai_client():
 
 def _extract_with_gemini(markdown: str) -> CreditCard:
     """Extract using Google Gemini"""
-    model = _get_gemini_client()
+    client = _get_gemini_client()
     
-    prompt = f"Content:\n{markdown[:15000]}"
-    response = model.generate_content(prompt)
+    prompt = f"{EXTRACTION_PROMPT}\n\nContent:\n{markdown[:15000]}"
+    response = client.models.generate_content(
+        model="gemma-3-27b-it",
+        contents=prompt
+    )
     
     text = response.text.strip()
     if text.startswith('```'):
